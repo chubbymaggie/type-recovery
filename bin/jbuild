@@ -2,5 +2,9 @@
 
 (executable
  ((name main)
-  (libraries (lib cil))
+  (libraries
+   (lib
+    cil
+    stdcompat
+    pyml))
 ))
